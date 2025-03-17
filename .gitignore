@@ -1,0 +1,65 @@
+# Arquivos de build (binários e intermediários)
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.log
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ipch
+
+# Configurações específicas do Visual Studio
+.vs/
+.vscode/
+*.sln.ide
+
+# Dependências NuGet (pode ser restaurado automaticamente)
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Configurações de usuário e arquivos gerados automaticamente
+*.csproj.user
+*.csproj.vspscc
+*.csproj.vspscc
+
+# Arquivos de cache do Windows e do .NET
+Thumbs.db
+ehthumbs.db
+*.dbmdl
+*.jfm
+*.pidb
+
+# Logs e arquivos temporários do sistema
+*.tmp
+*.bak
+*.old
+*.swp
+
+# Arquivos gerados por Testes Unitários
+TestResults/
+*.trx
+*.testlog
+
+# Logs do SQL Server e MySQL
+*.mdf
+*.ldf
+*.sqlite
+*.sdf
+*.db
+*.sql
+
+# Arquivos do Rider e do Resharper (JetBrains)
+.idea/
+*.DotSettings.user
+
+# Backups e arquivos de cache
+*.bak
+*.log
+*.sav
