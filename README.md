@@ -1,4 +1,4 @@
-# 📚 Controle de Cursos
+# 📚 Course Manager
 
 Este é um sistema de **gerenciamento de cursos, professores e turmas**, desenvolvido em **C# (.NET Framework)** com **Windows Forms** e **MySQL** como banco de dados. O projeto segue o padrão **MVC** (Model-View-Controller), garantindo uma arquitetura organizada e modular.
 
@@ -69,7 +69,7 @@ string conn = "Server=localhost;Database=course_manager;User=root;Password=sua_s
 
 ### ✅ **4. Abra e Compile no Visual Studio**
 
-1. Abra o arquivo **`ControleDeCursos.sln`** no **Visual Studio**.
+1. Abra o arquivo **`course-manager.sln`** no **Visual Studio**.
 2. No menu superior, clique em **"Build" → "Rebuild Solution"**.
 3. Pressione **F5** para executar o projeto.
 
@@ -86,7 +86,7 @@ ControleDeCursos/
 │   ├── Views/          # Interface gráfica (Windows Forms)
 │── .gitignore          # Arquivos ignorados pelo Git
 │── README.md           # Documentação do projeto
-│── ControleDeCursos.sln  # Solução do Visual Studio
+│── course-manager.sln  # Solução do Visual Studio
 ```
 
 ---
