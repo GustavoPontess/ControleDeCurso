@@ -1,65 +1,109 @@
-# Arquivos de build (binários e intermediários)
+# ============================================
+# Ignorar arquivos e pastas do Visual Studio
+# ============================================
+
+# Diretórios de build e publicação
 bin/
 obj/
-*.exe
-*.dll
-*.pdb
+out/
+TestResults/
+
+# Arquivos temporários do Visual Studio
+*.user
+*.rsuser
+*.suo
+*.vspscc
+*.vssscc
+*.vsp
+*.vspx
+*.ncb
+*.aps
 *.cache
 *.ilk
 *.log
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-*.ipch
+*.pdb
+*.tlog
+*.csproj.user
+*.csproj.DotSettings
+*.csproj.DotSettings.user
 
-# Configurações específicas do Visual Studio
+# Diretórios do Visual Studio
 .vs/
+.idea/
 .vscode/
-*.sln.ide
 
-# Dependências NuGet (pode ser restaurado automaticamente)
+# Logs do Visual Studio e arquivos de backup
+*.tlog
+*.log
+*.bak
+*.sdf
+*.sln.docstates
+
+# Configurações de usuário
+*.sln.ide
+*.sln.cache
+*.sln.sqlite
+
+# Arquivos de dependências e pacotes
 packages/
-*.nupkg
+node_modules/
 project.lock.json
 project.assets.json
 
-# Configurações de usuário e arquivos gerados automaticamente
-*.csproj.user
-*.csproj.vspscc
-*.csproj.vspscc
+# Arquivos do NuGet
+*.nupkg
+*.snupkg
+.nuget/
+NuGet.Config
+NuGet.exe
+global.json
 
-# Arquivos de cache do Windows e do .NET
-Thumbs.db
-ehthumbs.db
-*.dbmdl
-*.jfm
-*.pidb
+# Chaves, segredos e credenciais sensíveis
+appsettings.json
+appsettings.Development.json
+secrets.json
+*.pfx
+*.cer
+*.key
+*.pem
 
-# Logs e arquivos temporários do sistema
+# Arquivos de log e dumps de erro
+*.log
+*.dmp
+*.env
 *.tmp
-*.bak
-*.old
-*.swp
 
-# Arquivos gerados por Testes Unitários
-TestResults/
-*.trx
-*.testlog
-
-# Logs do SQL Server e MySQL
+# Arquivos de banco de dados locais
 *.mdf
 *.ldf
 *.sqlite
-*.sdf
 *.db
-*.sql
+*.sdf
 
-# Arquivos do Rider e do Resharper (JetBrains)
-.idea/
-*.DotSettings.user
+# Publicação e arquivos gerados
+publish/
+dump.rdb
+Dockerfile
+docker-compose.*
 
-# Backups e arquivos de cache
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos temporários do sistema
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+
+# ============================================
+# Ignorar arquivos específicos do seu projeto
+# ============================================
+
+# Evitar versionamento de DLLs de MySQL e outras bibliotecas externas
+*.dll
+*.exe
+*.config
+
+# Excluir backups automáticos do Visual Studio
 *.bak
-*.log
-*.sav
