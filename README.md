@@ -49,7 +49,7 @@ Este é um sistema de **gerenciamento de cursos, professores e turmas**, desenvo
 ### ✅ **1. Clone o Repositório**
 
 ```sh
-git clone https://github.com/GustavoPontess/ControleDeCurso
+git clone [https://github.com/GustavoPontess/ControleDeCurso](https://github.com/GustavoPontess/course-manager.git)
 cd ControleDeCursos
 ```
 
